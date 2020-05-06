@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF17FF8E-B576-346B-BD91-9E0074AD38E6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\aef09c60fe05bbb9dffb84df3031076d\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/op3d_active/tiff-4.0.10/msvc/tiff.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/aef09c60fe05bbb9dffb84df3031076d/generate.stamp.rule;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\build\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\xtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\iptcutil\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\mfs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\pds\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\ras\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\stream\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\tags\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\win_dib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\images\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff\tif_config.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\tiffconf.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\tiff-4.0.10\port\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\test\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\tools\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\port\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\libtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\tools\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\test\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\addtiffo\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\xtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\iptcutil\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\mfs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\pds\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\ras\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\stream\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\tags\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\win_dib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\build\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\man\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\images\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\man\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/op3d_active/tiff-4.0.10/msvc/tiff.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/aef09c60fe05bbb9dffb84df3031076d/generate.stamp.rule;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\build\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\xtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\iptcutil\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\mfs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\pds\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\ras\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\stream\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\tags\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\win_dib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\images\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff\tif_config.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\tiffconf.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\tiff-4.0.10\port\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\test\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\tools\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\port\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\libtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\tools\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\test\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\addtiffo\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\xtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\iptcutil\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\mfs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\pds\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\ras\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\stream\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\tags\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\win_dib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\build\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\man\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\images\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\man\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/op3d_active/tiff-4.0.10/msvc/tiff.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/aef09c60fe05bbb9dffb84df3031076d/generate.stamp.rule;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\build\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\xtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\iptcutil\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\mfs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\pds\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\ras\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\stream\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\tags\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\win_dib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\images\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff\tif_config.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\tiffconf.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\tiff-4.0.10\port\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\test\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\tools\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\port\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\libtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\tools\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\test\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\addtiffo\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\xtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\iptcutil\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\mfs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\pds\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\ras\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\stream\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\tags\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\win_dib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\build\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\man\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\images\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\man\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/op3d_active/tiff-4.0.10/msvc/tiff.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/aef09c60fe05bbb9dffb84df3031076d/generate.stamp.rule;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\build\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\dbs\xtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\iptcutil\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\mfs\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\pds\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\ras\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\stream\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\tags\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\contrib\win_dib\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\images\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\html\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff\tif_config.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\libtiff\tiffconf.h.cmake.in;C:\Development\op3d_active\tiff-4.0.10\man\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\tiff-4.0.10\port\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\test\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\tools\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\port\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\libtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\tools\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\test\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\addtiffo\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\xtiff\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\iptcutil\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\mfs\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\pds\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\ras\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\stream\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\tags\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\win_dib\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\build\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\man\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\images\CMakeFiles\generate.stamp;C:\Development\op3d_active\tiff-4.0.10\msvc\html\man\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

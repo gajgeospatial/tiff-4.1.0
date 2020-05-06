@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiff", "libtiff\tiff.vcxproj", "{A2549AF1-BED6-3416-B420-BDA758989FAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Debug|Win32.Build.0 = Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Release|Win32.ActiveCfg = Release|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Release|Win32.Build.0 = Release|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1538D659-E50E-32FC-9907-766CED086FCA}
+	EndGlobalSection
+EndGlobal

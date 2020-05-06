@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\addtiffo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\tif_overview.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\tif_ovrcache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\tif_ovrcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\tiff-4.0.10\contrib\addtiffo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{11F7F3AE-6FA9-3060-9B75-99C1F0590378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C38ACE6-303C-3249-B15B-EABCBDE52DE8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

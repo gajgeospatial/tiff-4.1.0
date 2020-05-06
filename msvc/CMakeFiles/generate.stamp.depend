@@ -1,0 +1,37 @@
+# CMake generation dependency list for this directory.
+C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt
+C:/Development/op3d_active/tiff-4.0.10/libtiff-4.pc.in
+C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/3.14.3/CMakeCCompiler.cmake
+C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/3.14.3/CMakeRCCompiler.cmake
+C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/3.14.3/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindGLUT.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindLibLZMA.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/TestBigEndian.cmake

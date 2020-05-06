@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF80F5DE-8669-34A0-A213-FDDAF9A765D1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-file C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-file C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-file C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/tiff-4.0.10 -BC:/Development/op3d_active/tiff-4.0.10/msvc --check-stamp-file C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/op3d_active/tiff-4.0.10/CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;C:\Development\op3d_active\tiff-4.0.10\libtiff-4.pc.in;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\Development\op3d_active\tiff-4.0.10\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\ZERO_CHECK.vcxproj">
+      <Project>{DF17FF8E-B576-346B-BD91-9E0074AD38E6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\ascii_tag.vcxproj">
+      <Project>{AD86CEBB-C33D-3BF7-8300-277685A750E0}</Project>
+      <Name>ascii_tag</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\custom_dir.vcxproj">
+      <Project>{AF4B6FAB-9AFA-3890-9FD1-F8A8C531CC12}</Project>
+      <Name>custom_dir</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\fax2ps.vcxproj">
+      <Project>{AF1883ED-BCC4-3952-8233-581FD6F9AC33}</Project>
+      <Name>fax2ps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\fax2tiff.vcxproj">
+      <Project>{C951A277-FA49-369D-8C6F-25DE591BD082}</Project>
+      <Name>fax2tiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\iptcutil\iptcutil.vcxproj">
+      <Project>{8DFAF8D3-CC10-34DE-92E1-3A4ABA90584D}</Project>
+      <Name>iptcutil</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\long_tag.vcxproj">
+      <Project>{DE09EE05-D49A-3C0F-8D61-C8E677A67A96}</Project>
+      <Name>long_tag</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\pal2rgb.vcxproj">
+      <Project>{5697BE2C-BF56-31AB-BF3A-5502DE7DA8D6}</Project>
+      <Name>pal2rgb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\port\port.vcxproj">
+      <Project>{16C28E88-60F6-3495-B480-835A2B0A1C4F}</Project>
+      <Name>port</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\ppm2tiff.vcxproj">
+      <Project>{E57B3590-84B0-3EA7-96D3-3FD27CE7E3F8}</Project>
+      <Name>ppm2tiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\raw2tiff.vcxproj">
+      <Project>{81D6CF96-EF50-3555-AEFF-EB83185C6ECF}</Project>
+      <Name>raw2tiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\raw_decode.vcxproj">
+      <Project>{DD9E69E1-DEA1-3006-BA01-CC3B3750F1C3}</Project>
+      <Name>raw_decode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\rewrite.vcxproj">
+      <Project>{42CF3A5C-C966-3693-A25B-A3D5D6299160}</Project>
+      <Name>rewrite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\rgb2ycbcr.vcxproj">
+      <Project>{46E54EBD-91BA-3B64-A96A-EE5BC30B4B3B}</Project>
+      <Name>rgb2ycbcr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\short_tag.vcxproj">
+      <Project>{50325F2C-BF51-37EC-9BB3-B280C03A44F4}</Project>
+      <Name>short_tag</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\test\strip_rw.vcxproj">
+      <Project>{674FA44D-2CCE-3D97-88B3-4A62DBE3DF08}</Project>
+      <Name>strip_rw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\thumbnail.vcxproj">
+      <Project>{22B46DBE-5AF5-3C7C-8361-143F3B409B19}</Project>
+      <Name>thumbnail</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\libtiff\tiff.vcxproj">
+      <Project>{A2549AF1-BED6-3416-B420-BDA758989FAA}</Project>
+      <Name>tiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\tiff-bi.vcxproj">
+      <Project>{711D5C18-2BFD-3930-B9F0-5DD4F0929760}</Project>
+      <Name>tiff-bi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\tiff-grayscale.vcxproj">
+      <Project>{46E1688C-05B9-3887-A7B9-C1FEC1A8182E}</Project>
+      <Name>tiff-grayscale</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\tiff-palette.vcxproj">
+      <Project>{B1DBC69D-7109-395D-A013-832E5A4F3EB7}</Project>
+      <Name>tiff-palette</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\contrib\dbs\tiff-rgb.vcxproj">
+      <Project>{F99014B0-235D-39BE-ADC0-6CDB17DCC775}</Project>
+      <Name>tiff-rgb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiff2bw.vcxproj">
+      <Project>{A95CE6FF-640E-3B37-9DB2-3B1C36D1A0AD}</Project>
+      <Name>tiff2bw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiff2pdf.vcxproj">
+      <Project>{EED80D68-BCB2-3C46-AEE6-5418A97766DA}</Project>
+      <Name>tiff2pdf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiff2ps.vcxproj">
+      <Project>{082C5D67-B048-3EBC-A819-BB9C5EB2E3EC}</Project>
+      <Name>tiff2ps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiff2rgba.vcxproj">
+      <Project>{3EAAE7F5-FB66-377C-843F-96DD3EF7BB2F}</Project>
+      <Name>tiff2rgba</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffcmp.vcxproj">
+      <Project>{E63BE06A-13D1-3A13-8D3C-B88F1A44E6A2}</Project>
+      <Name>tiffcmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffcp.vcxproj">
+      <Project>{F4EEE722-A423-3530-8E6F-1180B5D04680}</Project>
+      <Name>tiffcp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffcrop.vcxproj">
+      <Project>{889BA952-77AE-3123-8FE4-1B1E35A260FA}</Project>
+      <Name>tiffcrop</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffdither.vcxproj">
+      <Project>{7685F889-9799-3B1D-93BC-46F91224B9B3}</Project>
+      <Name>tiffdither</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffdump.vcxproj">
+      <Project>{4B9FC45E-FC74-3DEA-834B-C4F22A046D42}</Project>
+      <Name>tiffdump</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffinfo.vcxproj">
+      <Project>{ADE4B778-58B7-317D-9005-F673E7E82284}</Project>
+      <Name>tiffinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffmedian.vcxproj">
+      <Project>{531D7CD8-1473-32E4-9FEB-E38D0B8B992D}</Project>
+      <Name>tiffmedian</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffset.vcxproj">
+      <Project>{E72F81BF-8313-36B3-BC6B-6DC3A09762D5}</Project>
+      <Name>tiffset</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\tiff-4.0.10\msvc\tools\tiffsplit.vcxproj">
+      <Project>{5709A7CE-98FD-3C58-936B-CFB80F295079}</Project>
+      <Name>tiffsplit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

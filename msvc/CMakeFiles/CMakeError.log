@@ -1,0 +1,601 @@
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b27d9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b27d9.dir\Debug\\" /Fd"cmTC_b27d9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wl,--version-script=C:/Development/op3d_active/tiff-4.0.10/msvc/conftest.map "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\src.c"
+cl : Command line error D8021: invalid numeric argument '/Wl,--version-script=C:/Development/op3d_active/tiff-4.0.10/msvc/conftest.map' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_b27d9.vcxproj]
+
+Source file was:
+int main(void){return 0;}
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_84d95.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84d95.dir\Debug\\" /Fd"cmTC_84d95.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_84d95.vcxproj]
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_56e90.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56e90.dir\Debug\\" /Fd"cmTC_56e90.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_56e90.vcxproj]
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_3a893.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a893.dir\Debug\\" /Fd"cmTC_3a893.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_3a893.vcxproj]
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a2db2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2db2.dir\Debug\\" /Fd"cmTC_a2db2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_a2db2.vcxproj]
+
+
+Performing C SOURCE FILE Test TIME_WITH_SYS_TIME failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_3a6cc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TIME_WITH_SYS_TIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a6cc.dir\Debug\\" /Fd"cmTC_3a6cc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_3a6cc.vcxproj]
+
+Source file was:
+
+#include <sys/time.h>
+#include <time.h>
+int main(void){return 0;}
+Determining if the mmap exist failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ead11.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ead11.dir\Debug\\" /Fd"cmTC_ead11.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_ead11.vcxproj]
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setmode exist failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_1fdc9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1fdc9.dir\Debug\\" /Fd"cmTC_1fdc9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_1fdc9.vcxproj]
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_03e0b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03e0b.dir\Debug\\" /Fd"cmTC_03e0b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_03e0b.vcxproj]
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getopt exist failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e474a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e474a.dir\Debug\\" /Fd"cmTC_e474a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_e474a.vcxproj]
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getopt
+  return ((int*)(&getopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the jbg_newlen exist failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_91020.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91020.dir\Debug\\" /Fd"cmTC_91020.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'jbig.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_91020.vcxproj]
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <jbig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef jbg_newlen
+  return ((int*)(&jbg_newlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function lzma_auto_decoder exists in the C:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_529cd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_529cd.dir\Debug\\" /Fd"cmTC_529cd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _lzma_auto_decoder referenced in function _main [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_529cd.vcxproj]
+C:\Development\op3d_active\liblzma-5.2.5\windows\vc141\x64\vs2017_Release\liblzma.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_529cd.vcxproj]
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_529cd.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_529cd.vcxproj]
+
+
+Determining if the function lzma_easy_encoder exists in the C:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_337ff.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_337ff.dir\Debug\\" /Fd"cmTC_337ff.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _lzma_easy_encoder referenced in function _main [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_337ff.vcxproj]
+C:\Development\op3d_active\liblzma-5.2.5\windows\vc141\x64\vs2017_Release\liblzma.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_337ff.vcxproj]
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_337ff.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_337ff.vcxproj]
+
+
+Determining if the function lzma_lzma_preset exists in the C:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_8d168.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d168.dir\Debug\\" /Fd"cmTC_8d168.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _lzma_lzma_preset referenced in function _main [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_8d168.vcxproj]
+C:\Development\op3d_active\liblzma-5.2.5\windows\vc141\x64\vs2017_Release\liblzma.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_8d168.vcxproj]
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_8d168.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_8d168.vcxproj]
+
+
+Determining if the include file GL/gl.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_17eb2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17eb2.dir\Debug\\" /Fd"cmTC_17eb2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2146: syntax error: missing ',' before identifier 'glAccum' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2146: syntax error: missing ',' before identifier 'glAlphaFunc' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2146: syntax error: missing ',' before identifier 'glAreTexturesResident' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2146: syntax error: missing ',' before identifier 'glArrayElement' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2146: syntax error: missing ',' before identifier 'glBegin' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2146: syntax error: missing ',' before identifier 'glBindTexture' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2146: syntax error: missing ',' before identifier 'glBitmap' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2146: syntax error: missing ',' before identifier 'glBlendFunc' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2146: syntax error: missing ',' before identifier 'glCallList' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2146: syntax error: missing ',' before identifier 'glCallLists' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2146: syntax error: missing ',' before identifier 'glClear' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2146: syntax error: missing ',' before identifier 'glClearAccum' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2146: syntax error: missing ',' before identifier 'glClearColor' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2146: syntax error: missing ',' before identifier 'glClearDepth' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2146: syntax error: missing ',' before identifier 'glClearIndex' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2146: syntax error: missing ',' before identifier 'glClearStencil' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2146: syntax error: missing ',' before identifier 'glClipPlane' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2146: syntax error: missing ',' before identifier 'glColor3b' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2146: syntax error: missing ',' before identifier 'glColor3bv' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2146: syntax error: missing ',' before identifier 'glColor3d' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_17eb2.vcxproj]
+
+
+Determining if the include file GL/glu.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_64f03.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64f03.dir\Debug\\" /Fd"cmTC_64f03.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2146: syntax error: missing ',' before identifier 'glAccum' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1157): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2146: syntax error: missing ',' before identifier 'glAlphaFunc' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1158): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2146: syntax error: missing ',' before identifier 'glAreTexturesResident' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1159): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2146: syntax error: missing ',' before identifier 'glArrayElement' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1160): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2146: syntax error: missing ',' before identifier 'glBegin' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1161): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2146: syntax error: missing ',' before identifier 'glBindTexture' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1162): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2146: syntax error: missing ',' before identifier 'glBitmap' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1163): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2146: syntax error: missing ',' before identifier 'glBlendFunc' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1164): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2146: syntax error: missing ',' before identifier 'glCallList' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1165): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2146: syntax error: missing ',' before identifier 'glCallLists' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1166): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2146: syntax error: missing ',' before identifier 'glClear' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1167): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2146: syntax error: missing ',' before identifier 'glClearAccum' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1168): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2146: syntax error: missing ',' before identifier 'glClearColor' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1169): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2146: syntax error: missing ',' before identifier 'glClearDepth' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1170): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2146: syntax error: missing ',' before identifier 'glClearIndex' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1171): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2146: syntax error: missing ',' before identifier 'glClearStencil' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1172): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2146: syntax error: missing ',' before identifier 'glClipPlane' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1173): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2146: syntax error: missing ',' before identifier 'glColor3b' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1174): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2146: syntax error: missing ',' before identifier 'glColor3bv' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1175): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2085: 'APIENTRY': not in formal parameter list [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2146: syntax error: missing ',' before identifier 'glColor3d' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2143: syntax error: missing ';' before '(' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1176): error C2059: syntax error: ')' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI' [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_64f03.vcxproj]
+
+
+Determining if the include file GL/glut.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_7bf14.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bf14.dir\Debug\\" /Fd"cmTC_7bf14.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_7bf14.vcxproj]
+
+
+Determining if the include file GLUT/glut.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ad309.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad309.dir\Debug\\" /Fd"cmTC_ad309.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_ad309.vcxproj]
+
+
+Determining if the include file OpenGL/gl.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_900b8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_900b8.dir\Debug\\" /Fd"cmTC_900b8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'OpenGL/gl.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_900b8.vcxproj]
+
+
+Determining if the include file OpenGL/glu.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_bdb2c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdb2c.dir\Debug\\" /Fd"cmTC_bdb2c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'OpenGL/glu.h': No such file or directory [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_bdb2c.vcxproj]
+
+

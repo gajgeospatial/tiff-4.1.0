@@ -1,0 +1,839 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/4/2020 2:53:26 PM.
+Project "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/3.14.3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_0f49d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f49d.dir\Debug\\" /Fd"cmTC_0f49d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+  cmTC_0f49d.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_0f49d.exe
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_bb2ed.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb2ed.dir\Debug\\" /Fd"cmTC_bb2ed.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+  cmTC_bb2ed.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_bb2ed.exe
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_cfec3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfec3.dir\Debug\\" /Fd"cmTC_cfec3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\feature_tests.c"
+  feature_tests.c
+  
+  cmTC_cfec3.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_cfec3.exe
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Performing C SOURCE FILE Test C_FLAG_W3 succeeded with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_8480a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D C_FLAG_W3 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8480a.dir\Debug\\" /Fd"cmTC_8480a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+  cmTC_8480a.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_8480a.exe
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_0ca9e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ca9e.dir\Debug\\" /Fd"cmTC_0ca9e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_0ca9e.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_0ca9e.exe
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d565a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d565a.dir\Debug\\" /Fd"cmTC_d565a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_d565a.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d565a.exe
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d940d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d940d.dir\Debug\\" /Fd"cmTC_d940d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_d940d.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d940d.exe
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a9771.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9771.dir\Debug\\" /Fd"cmTC_a9771.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_a9771.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_a9771.exe
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_dd2ca.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd2ca.dir\Debug\\" /Fd"cmTC_dd2ca.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_dd2ca.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_dd2ca.exe
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b9de3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9de3.dir\Debug\\" /Fd"cmTC_b9de3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_b9de3.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b9de3.exe
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_be459.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be459.dir\Debug\\" /Fd"cmTC_be459.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_be459.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_be459.exe
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_1e311.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e311.dir\Debug\\" /Fd"cmTC_1e311.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_1e311.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1e311.exe
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a41bd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D C_HAS_inline /D inline=inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a41bd.dir\Debug\\" /Fd"cmTC_a41bd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+  cmTC_a41bd.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_a41bd.exe
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Performing C SOURCE FILE Test TM_IN_SYS_TIME succeeded with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ca6d0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D TM_IN_SYS_TIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca6d0.dir\Debug\\" /Fd"cmTC_ca6d0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+  cmTC_ca6d0.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ca6d0.exe
+
+Source file was:
+
+#include <sys/types.h>
+#include <time.h>
+
+int main(void){
+  struct tm tm;
+  int *p = &tm.tm_sec;
+  return !p;
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_2f138.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f138.dir\Debug\\" /Fd"cmTC_2f138.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  cmTC_2f138.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2f138.exe
+
+
+Determining size of signed int passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_5127b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5127b.dir\Debug\\" /Fd"cmTC_5127b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_INT.c"
+  SIZEOF_SIGNED_INT.c
+  
+  cmTC_5127b.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_5127b.exe
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_1adf3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1adf3.dir\Debug\\" /Fd"cmTC_1adf3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c"
+  SIZEOF_UNSIGNED_INT.c
+  
+  cmTC_1adf3.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1adf3.exe
+
+
+Determining size of signed long passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_2a072.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a072.dir\Debug\\" /Fd"cmTC_2a072.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG.c"
+  SIZEOF_SIGNED_LONG.c
+  
+  cmTC_2a072.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2a072.exe
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_3687e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3687e.dir\Debug\\" /Fd"cmTC_3687e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c"
+  SIZEOF_UNSIGNED_LONG.c
+  
+  cmTC_3687e.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_3687e.exe
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_1a8f6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a8f6.dir\Debug\\" /Fd"cmTC_1a8f6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG_LONG.c"
+  SIZEOF_SIGNED_LONG_LONG.c
+  
+  cmTC_1a8f6.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1a8f6.exe
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_7eea1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7eea1.dir\Debug\\" /Fd"cmTC_7eea1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c"
+  SIZEOF_UNSIGNED_LONG_LONG.c
+  
+  cmTC_7eea1.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_7eea1.exe
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b7d42.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7d42.dir\Debug\\" /Fd"cmTC_b7d42.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c"
+  SIZEOF_UNSIGNED_CHAR_P.c
+  
+  cmTC_b7d42.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b7d42.exe
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_feb59.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feb59.dir\Debug\\" /Fd"cmTC_feb59.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  SIZEOF_SIZE_T.c
+  
+  cmTC_feb59.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_feb59.exe
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_17e37.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17e37.dir\Debug\\" /Fd"cmTC_17e37.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\SIZEOF_PTRDIFF_T.c"
+  SIZEOF_PTRDIFF_T.c
+  
+  cmTC_17e37.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_17e37.exe
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_c31f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c31f0.dir\Debug\\" /Fd"cmTC_c31f0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+  cmTC_c31f0.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_c31f0.exe
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtol exist passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ac513.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac513.dir\Debug\\" /Fd"cmTC_ac513.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+  cmTC_ac513.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ac513.exe
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_62f12.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62f12.dir\Debug\\" /Fd"cmTC_62f12.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+  cmTC_62f12.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_62f12.exe
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoul exist passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_442e0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_442e0.dir\Debug\\" /Fd"cmTC_442e0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+  cmTC_442e0.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_442e0.exe
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoull exist passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_09241.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09241.dir\Debug\\" /Fd"cmTC_09241.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+  cmTC_09241.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_09241.exe
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lfind exist passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_547cc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_547cc.dir\Debug\\" /Fd"cmTC_547cc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'lfind': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lfind. See online help for details. [C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\cmTC_547cc.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_search.h(191): note: see declaration of 'lfind'
+  cmTC_547cc.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_547cc.exe
+
+File C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <search.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lfind
+  return ((int*)(&lfind))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_8a091.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a091.dir\Debug\\" /Fd"cmTC_8a091.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  
+  cmTC_8a091.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_8a091.exe
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_3112b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3112b.dir\Debug\\" /Fd"cmTC_3112b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\TestEndianess.c"
+  TestEndianess.c
+  
+  cmTC_3112b.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_3112b.exe
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/4/2020 2:54:49 PM.
+Project "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\3.14.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/3.14.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_4656a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4656a.dir\Debug\\" /Fd"cmTC_4656a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+  cmTC_4656a.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_4656a.exe
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_24611.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24611.dir\Debug\\" /Fd"cmTC_24611.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+  cmTC_24611.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_24611.exe
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Development/op3d_active/tiff-4.0.10/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_11575.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11575.dir\Debug\\" /Fd"cmTC_11575.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+  cmTC_11575.vcxproj -> C:\Development\op3d_active\tiff-4.0.10\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_11575.exe
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
