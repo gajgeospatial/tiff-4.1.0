@@ -7,16 +7,43 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
-		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+		Release|x64 = Release|x64
+		vs2017_Debug|Win32 = vs2017_Debug|Win32
+		vs2017_Debug|x64 = vs2017_Debug|x64
+		vs2017_Release|Win32 = vs2017_Release|Win32
+		vs2017_Release|x64 = vs2017_Release|x64
+		vs2019_Debug|Win32 = vs2019_Debug|Win32
+		vs2019_Debug|x64 = vs2019_Debug|x64
+		vs2019_Release|Win32 = vs2019_Release|Win32
+		vs2019_Release|x64 = vs2019_Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Debug|Win32.Build.0 = Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Debug|x64.ActiveCfg = Debug|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Debug|x64.Build.0 = Debug|x64
 		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Release|Win32.ActiveCfg = Release|Win32
 		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Release|Win32.Build.0 = Release|Win32
-		{A2549AF1-BED6-3416-B420-BDA758989FAA}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
-		{A2549AF1-BED6-3416-B420-BDA758989FAA}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Release|x64.ActiveCfg = Release|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.Release|x64.Build.0 = Release|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Debug|Win32.ActiveCfg = vs2017_Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Debug|Win32.Build.0 = vs2017_Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Debug|x64.ActiveCfg = vs2017_Debug|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Debug|x64.Build.0 = vs2017_Debug|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Release|Win32.ActiveCfg = vs2017_Release|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Release|Win32.Build.0 = vs2017_Release|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Release|x64.ActiveCfg = vs2017_Release|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2017_Release|x64.Build.0 = vs2017_Release|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Debug|Win32.ActiveCfg = vs2019_Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Debug|Win32.Build.0 = vs2019_Debug|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Release|Win32.ActiveCfg = vs2019_Release|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Release|Win32.Build.0 = vs2019_Release|Win32
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{A2549AF1-BED6-3416-B420-BDA758989FAA}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

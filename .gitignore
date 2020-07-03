@@ -3,6 +3,7 @@ vc110
 vc120
 vc140
 vc141
+vc142
 .vs
 **/bin/*
 **/release/*
@@ -11,6 +12,4 @@ vc141
 **/*.sdf
 **/*.VC.db
 **/ipch*
-CDB_Builder.VC.VC.opendb
-*.suo
 *.suo
