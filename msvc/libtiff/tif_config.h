@@ -108,7 +108,7 @@
 #define JPEG_DUAL_MODE_8_12 1
 
 /* 12bit libjpeg primary include file with path */
-#define LIBJPEG_12_PATH "C:/Development/op3d_active/jpeg12bit-9c/jpeglib.h"
+#define LIBJPEG_12_PATH "jpeglib.h"
 
 /* Support LZMA2 compression */
 #define LZMA_SUPPORT 1
