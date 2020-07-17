@@ -35,8 +35,11 @@
 #define TIFF_SIZE_T unsigned int
 
 /* Signed size type */
+#ifdef _WIN64
+#define TIFF_SSIZE_T __int64
+#else
 #define TIFF_SSIZE_T signed int
-
+#endif
 /* Pointer difference type */
 #define TIFF_PTRDIFF_T ptrdiff_t
 
