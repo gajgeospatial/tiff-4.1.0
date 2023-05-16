@@ -575,7 +575,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;jpeg.lib;jpeg12.lib;liblzma.lib;libwebp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;jpeg.lib;jpeg12.lib;liblzma.lib;libwebp.lib;libsharpyuv.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(JPEG_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(JPEG12_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(WEBP_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -588,6 +588,11 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).pdb $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -935,7 +940,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>zlib.lib;jpeg.lib;jpeg12.lib;liblzma.lib;libwebp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalDependencies>zlib.lib;jpeg.lib;jpeg12.lib;liblzma.lib;libwebp.lib;libsharpyuv.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(JPEG_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(JPEG12_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(WEBP_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -948,6 +953,11 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\libtiff\tif_aux.c" />
